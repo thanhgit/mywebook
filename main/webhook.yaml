@@ -1,0 +1,60 @@
+IP: localhost
+Port: 7000
+Proxy: http://proxy.me:80
+TelegramToken: 1090358948:AAHI2x4FQHZdwHgwQY9OCDeeaFvOfXEpczc
+ChatID: -1001467806884
+AutoticketURL: http://autoticket.me/nafautoticket/listalertinfo/
+AoptURLGetToken: https://tool.me/api/v1/login
+AoptURLRunCommand: https://tool.me/api/v1/run_command
+AoptURLGetCommand: https://tool.me/api/v1/get_command
+AoptURLRunService: https://tool.me/api/v1/jobs
+AoptURLGetStatus: https://tool.me/api/v1/job/
+AuthorizationAutoticket: Basic YWRtaW46MTIzzGFik2Q7Ow==
+VersionCode: 7
+REMOTEUsername: test
+REMOTEPassword: testtest
+MY_ALERT_WELCOME: /myalert
+MY_ALERT_OUT_OF_CREDIT: /myalert/outofcredit
+MY_ALERT_SERVER_FCALL_DOWN: /myalert/serverfcalldown
+MY_ALERT_SERVER_BACKUP_DOWN: /myalert/serverbackupdown
+MY_ALERT_AUTO_CALL_FAIL: /myalert/autocallfail
+MY_ALERT_TELEGRAM_SEND: /telegrams/send
+Debug: false
+AutoticketBody:
+  AlertPlan: Hệ thống Giám sát
+  ServiceName: check_fcall_fail
+  ObjectID: 0
+  KeyWord: OPSVIEW_API
+  DedicateHostPlanning: 127.0.0.1
+  EventID: 0
+  Output: Test CRITICAL - Cảnh báo hệ thống autocall lỗi
+  ServiceState: critical
+  HostName: MY-FCALL-01
+  HostState: None
+  EventDateTime: 2020-3-16T16:42:46
+
+AutoticketAutoCalFailBody:
+  AlertPlan: Hệ thống Giám sát
+  ServiceName: check_fcall_fail
+  ObjectID: 0
+  KeyWord: OPSVIEW_API
+  DedicateHostPlanning: 127.0.0.1
+  EventID: 0
+  Output: Test CRITICAL - Cảnh báo hệ thống autocall lỗi
+  ServiceState: critical
+  HostName: MY-FCALL-01
+  HostState: None
+  EventDateTime: 2020-3-16T16:42:46
+
+REMOTERunServiceBody112:
+  Device: 172.27.228.112
+  Description: Test service autocall failled 172.27.228.112
+  ServiceID: 2636
+  Token:
+  StringInterface:
+REMOTERunServiceBody113:
+  Device: 172.27.228.113
+  Description: Test service autocall failled 172.27.228.113
+  ServiceID: 2636
+  Token:
+  StringInterface:
