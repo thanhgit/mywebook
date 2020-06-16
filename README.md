@@ -85,6 +85,5 @@ Within the download you'll find the following directories and files:
 * [Alert Server Backup Down](main/docs/alertingServerBackupDown.md) `POST /api/myalert/serverbackupdown`
 * [Send Message To Telegram](main/docs/sendTelegram.md) `POST /api/telegrams/send`
 ## Technical Support or Questions
-
-If you have questions or need help integrating the product please "thanhnp29695@gmail.com" instead of opening an issue.
+If you have questions or need help integrating the product please "thanh29695@gmail.com" instead of opening an issue.
 
