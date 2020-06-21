@@ -21,7 +21,6 @@ Within the download you'll find the following directories and files:
 │   │   └── TelegramBot.go
 │   ├── docs
 │   ├── dto
-│   ├── main
 │   ├── main.go
 │   ├── utils
 │   │   ├── ApiUtils.go
