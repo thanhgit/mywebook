@@ -13,8 +13,6 @@ nohup go run main/main.go &
 Within the download you'll find the following directories and files:
 ```bash
 .
-├── go.mod
-├── go.sum
 ├── main
 │   ├── api
 │   │   ├── AOPTBot.go
@@ -22,29 +20,7 @@ Within the download you'll find the following directories and files:
 │   │   ├── AutoticketBot.go
 │   │   └── TelegramBot.go
 │   ├── docs
-│   │   ├── alertingOutOfCredit.md
-│   │   ├── alertingServerBackupDown.md
-│   │   ├── alertingServerFcallDown.md
-│   │   ├── docs.go
-│   │   ├── sendTelegram.md
-│   │   ├── swaggerui.png
-│   │   └── welcome.md
 │   ├── dto
-│   │   ├── Account.go
-│   │   ├── AOPTGetCommandBody.go
-│   │   ├── AOPTGetCommandResponse.go
-│   │   ├── AOPTGetStatusBody.go
-│   │   ├── AOPTGetStatusResponse.go
-│   │   ├── AOPTRunCommandBody.go
-│   │   ├── AOPTRunCommandResponse.go
-│   │   ├── AOPTRunServiceBody.go
-│   │   ├── AOPTRunServiceResponse.go
-│   │   ├── AutoticketBody.go
-│   │   ├── AutoticketResponse.go
-│   │   ├── MyObject.go
-│   │   ├── Notification.go
-│   │   ├── ResultDTO.go
-│   │   └── TokenDTO.go
 │   ├── main
 │   ├── main.go
 │   ├── utils
@@ -60,19 +36,6 @@ Within the download you'll find the following directories and files:
 └── vendor
     ├── github.com
     │   └── swaggo
-    │       ├── files
-    │       ├── gin-swagger
-    │       │   ├── b0x.yml
-    │       │   ├── go.mod
-    │       │   ├── go.sum
-    │       │   ├── LICENSE
-    │       │   ├── README.md
-    │       │   └── swagger.go
-    │       └── swag
-    │           ├── cmd
-    │           │   └── swag
-    │           │       └── main.go
-    │           └── license
     └── vendor.json
 
 ```
